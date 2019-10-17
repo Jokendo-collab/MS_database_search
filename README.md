@@ -4,8 +4,25 @@ This pipeline uses spectral-clustering to infer additional identifications from 
 
 ## Usage
 
-The pipeline uses [nextflow](https://nextflow.io) and [docker](https://docker.com) and therefore
-only runs on Linux systems.
+The pipeline uses [nextflow](https://nextflow.io) and [docker](https://docker.com) and therefore only runs on Linux systems. The Univesity of Cape Town HPC nolonger support docker and if this applies to you then you can add the following lines in your `nextflow.config` file.
+
+```
+docker {
+    enabled = false
+}
+
+singularity{
+
+    enabled = true
+    autoMounts = true
+}
+
+trace {
+
+    enabled = true
+}
+
+```
 
 ### Test dataset
 
