@@ -1,7 +1,6 @@
 # spectra-cluster LFQ pipeline
 
-This pipeline uses spectral-clustering to infer additional identifications from
-MS/MS search engine results and improve label-free quantitation accuracy.
+This pipeline uses spectral-clustering to infer additional identifications from MS/MS search engine results and improve label-free quantitation accuracy.
 
 ## Usage
 
@@ -55,6 +54,5 @@ By default, the workflow uses Carbamidomethylation (C) as fixed modification, an
 Alterantively, you can create a copy of these file, edit this copy and set the `--xtandem_template` and `--msgf_mods` command line parameters accordingly.
 
 ### Multi-threading
-
 By default, all tasks that can be run in parallel will be run in parallel by nextflow. Additionally, you can change the `threads` variable in the workflow script. This will then increase the number of threads used by the search engines and the clustering process. Note that the searches and the clustering might run at the same time.
 # MS-MS_database_search
