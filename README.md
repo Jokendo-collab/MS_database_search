@@ -34,10 +34,9 @@ This will process one included MGF file of the CPTAC Study 6 dataset and search 
 ### The following command can be used in processing your own data
 
 ```bash
-# The pipeline expects that the current working directory is the directory
+# **The pipeline expects that the current working directory is the directory**
 # containing the "config" folder
-nextflow run -resume lfq-clustering.nf --prec_rol 10 --frag_tol 0.5 --mc 1 \
-	--min_ident 2 --min_ratio 0.7 \
+nextflow run -resume lfq-clustering.nf --prec_rol 10 --frag_tol 0.5 --mc 1 --min_ident 2 --min_ratio 0.7 \
 	--raw_dir /my/mgf/file_directory --fasta_file /my/species.fasta
 ```
 
