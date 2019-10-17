@@ -19,7 +19,7 @@ nextflow run -resume lfq-clustering.nf
 
 This will process one included MGF file of the CPTAC Study 6 dataset and search it against the human SwissProt database (**without contaminants**). Using a database without contaminants is generally not recommended and only included for testing purposes.
 
-### Processing own data
+### The following command can be used in processing your own data
 
 ```bash
 # The pipeline expects that the current working directory is the directory
