@@ -10,18 +10,13 @@ The pipeline uses [nextflow](https://nextflow.io) and [docker](https://docker.co
 docker {
     enabled = false
 }
-
 singularity{
-
     enabled = true
     autoMounts = true
 }
-
 trace {
-
     enabled = true
 }
-
 ```
 
 ### Test dataset
