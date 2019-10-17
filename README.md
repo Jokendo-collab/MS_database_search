@@ -1,4 +1,4 @@
-# spectra-cluster LFQ pipeline
+# Spectral clustering using LFQ raw files
 
 This pipeline uses spectral-clustering to infer additional identifications from MS/MS search engine results and improve label-free quantitation accuracy.
 
