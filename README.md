@@ -66,3 +66,7 @@ Alterantively, you can create a copy of these file, edit this copy and set the `
 
 ### Multi-threading
 By default, all tasks that can be run in parallel will be run in parallel by nextflow. Additionally, you can change the `threads` variable in the workflow script. This will then increase the number of threads used by the search engines and the clustering process. Note that the searches and the clustering might run at the same time.
+
+```path to my analysis results
+/scratch/oknjav001/psm_identification/nf-workflows/lfq-clustering
+```
